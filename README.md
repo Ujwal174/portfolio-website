@@ -3,7 +3,7 @@
 Welcome to my **personal portfolio website**!  
 This site showcases my skills, projects, and ways to connect with me — all in a **modern, responsive, and interactive** design.  
 
-🚀 **[🔗 View Live Website](https://ujwal174.github.io/portfolio-website/#projects)**  
+🚀 **[🔗 View Live Website](https://ujwal174.github.io/portfolio-website/)**  
 
 
 ---
