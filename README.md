@@ -1,2 +1,22 @@
-# portfolio-website
-A basic portfolio website of Ujwal using HTML, CSS and JS
+# 🌐 Ujwal Kumar B R - Portfolio
+
+Welcome to my **personal portfolio website**!  
+This site showcases my skills, projects, and ways to connect with me — all in a **modern, responsive, and interactive** design.  
+
+🚀 **[🔗 View Live Website](YOUR_WEBSITE_LINK_HERE)**  
+*(Replace the above link with your hosted portfolio URL once deployed)*  
+
+---
+
+## ✨ Features
+
+- 🎨 **Responsive Design** – Works perfectly on desktop, tablet, and mobile  
+- 🌙 **Dark Mode Toggle** – Switch between light & dark themes  
+- ⌨️ **Typing Animation** – Animated intro text for a dynamic feel  
+- 🖼️ **Project Hover Effects** – Preview images & links to projects on hover  
+- 🎯 **Smooth Scrolling** – Navigation links smoothly scroll to sections  
+- ⬆️ **Scroll-to-Top Button** – Quick return to the top of the page  
+- 📬 **Contact Form** – Integrated with Formspree for direct messages  
+- ✨ **AOS Animations** – Smooth fade/slide effects on scroll  
+
+---

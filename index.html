@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ujwal Kumar B R - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Ujwal Kumar</div>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="right-controls">
+            <button id="darkModeToggle" title="Toggle dark mode">🌙</button>
+            <button id="menuToggle" class="mobile-only">☰</button>
+        </div>
+    </header>
+
+    <!-- Mobile nav (hidden on desktop) -->
+    <nav id="mobileNav" class="mobile-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" data-aos="fade-up">
+        <div class="hero-inner container">
+            <div class="hero-text">
+                <h1 id="typingText" class="typing"></h1>
+                <p class="sub">Full-Stack Developer • AI Enthusiast • Web3 Innovator</p>
+                <div class="hero-cta">
+                    <a href="Ujwal_Kumar_Resume.pdf" class="btn" download>📄 Download Resume</a>
+                    <a href="#projects" class="btn ghost">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-card" data-aos="fade-left" data-aos-delay="200">
+                <div class="card-inner">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto:ujwalkumar717@gmail.com">ujwalkumar717@gmail.com</a></p>
+                    <p>Phone: <a href="tel:8073975135">8073975135</a></p>
+                    <p>Location: Bengaluru, India</p>
+                    <div class="socials">
+                        <a href="https://github.com/Ujwal174" target="_blank">GitHub</a> · 
+                        <a href="https://www.linkedin.com/in/ujwal-kumar-b-r-0738352b9/" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+
+    <!-- About Section -->
+    <section id="about" class="container section" data-aos="fade-right">
+        <h2>About Me</h2>
+        <p>
+            I am a motivated and forward-thinking 4th-year B.E. student in Information Science with a strong foundation in full-stack development and a growing portfolio of projects in Web3, blockchain, and artificial intelligence. I love building user-centric web applications and experimenting with AI tools and prompt engineering. I participate in Web3 communities and enjoy hackathons.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container section" data-aos="fade-left">
+        <h2>Skills</h2>
+        <ul class="skills-grid">
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Flask</li>
+            <li>AI & ML (Whisper, Stable Diffusion)</li>
+            <li>MySQL, MongoDB, Firebase</li>
+            <li>Web3 & Blockchain</li>
+            <li>Git/GitHub, Docker, Linux</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container section" data-aos="zoom-in">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <article class="card" data-aos="flip-left">
+                <h3>CapVid</h3>
+                <p>AI Captions Generator for videos using Whisper + ffmpeg. Upload a video, extract audio, transcribe, and burn subtitles — downloadable output.</p>
+                <p class="tech">Python · Flask · Whisper · ffmpeg</p>
+            </article>
+
+            <article class="card" data-aos="flip-left" data-aos-delay="120">
+                <h3>Acoustic Artistry</h3>
+                <p>Voice-assisted image generator: record voice → speech-to-text → Stable Diffusion prompt → generated artwork.</p>
+                <p class="tech">Python · Gradio · Stable Diffusion · PyTorch</p>
+            </article>
+
+            <article class="card" data-aos="flip-left" data-aos-delay="240">
+                <h3>Restoran</h3>
+                <p>Restaurant management system with menu browsing, table booking, and admin dashboard.</p>
+                <p class="tech">HTML/CSS/JS · Flask · MySQL</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container section" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, send me a message — I'll reply as soon as possible.</p>
+
+        <!-- Form using Formspree: replace {your_form_id} with your Formspree form id to enable submissions -->
+        <form id="contactForm" action="https://formspree.io/f/xblkqnwo" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="_replyto" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer data-aos="fade-in">
+        <div class="container footer-inner">
+            <p>© 2025 Ujwal Kumar B R</p>
+            <p class="footer-links">
+               <a href="https://github.com/Ujwal174" target="_blank">GitHub</a> · 
+               <a href="https://www.linkedin.com/in/ujwal-kumar-b-r-0738352b9/" target="_blank">LinkedIn</a> · 
+               <a href="mailto:ujwalkumar717@gmail.com">Email</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="Back to top">⬆</button>
+
+    <!-- AOS & Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init({ duration: 900, once: true });
+    </script>
+</body>
+</html>
